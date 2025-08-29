@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @BenItBuhner
-- 👀 I’m interested in devloping Android and a skin for it.
-- 🌱 I’m currently learning on how to develop Android and a skin for it.
-- 💞️ I’m looking to collaborate on a custom skin for Android (9 first) called "ProUI."
-- 📫 How to reach me: GitHUb lol
+- 👋 Hi, I’m Bennett, aka @BennettBuhner on X!
+- 👀 I’m interested in generative AI and scaling its abilities beyond anything this world has ever seen.
+- 🌱 I’m currently learning about ML, scaling the limits of current day LLMs, and more.
+- 💞️ I’m trying to create AGI in a shoebox... or your phone.
+- 📫 How to reach me: GitHub and X
 
 <!---
 BenItBuhner/BenItBuhner is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

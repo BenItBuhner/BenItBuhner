@@ -1,23 +1,13 @@
-# 🌄 Overview
-Hi! I am Bennett Buhner, full time X addict and part time light dev! I love developing with/for AI, training SLMs, and more!
+# Overview
 
-# 🤓 Generative AI
-I love to use AI to get montonous tasks done and love scaling AI to its limits even more. I have been working rigorously to make some of the best agentic frameworks out there and to adapt them and make them as efficient as possible whilst maximizing intelligence, alignment, and overall precision. 
+I am an aspiring 18 y/o, working to get ahead of the rest and scale generative AI far. I love to create agent frameworks, enable AI to take action on behalf of you, and crunch the time it takes to do something from hours or days to minutes. 
 
-# 👨‍💻 Software Engineering
-I am relatively proficient at Python... as all my repositories may suggest, and I tend to use the likes of Cursor to curate a good chunk of my diffs now. Overall, I am best able to develop in Python, TypeScript, Tailwind, and more.
+# Skill Highlights
 
-# 👤 Design 
-I am a design *addict* and enjoy using Figma massively. It only makes it all the better when I can simply use the Figma MCP to port over designs from concept to reality in minutes!
+- **Python & FastAPI:** I am pretty coherent at these, and have used  them quite a bit lately to create a few OSS  projects that help save time.
+- **PyTorch:** I am no "pro" yet per se, but I have been consistenly learning and progressing more through it as time goes on.
+- **Desing:** One of my biggest pasttimes has been designing; I generaly use Figma and it is so fun to make clean and inutitive mobile interaces among other unique projects.
 
-# 🔔 Goals
-I aspire to scale to AGI and make universal agentic frameworks that can maximize the usability and autonomy of AI as it stands. 
+# Goals
 
-# 🔗 Other Links
-If you want to see some of my projects or anything o the sort, here is will I place them:
-- (Coming soon!)
-
-<!---
-BenItBuhner/BenItBuhner is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I want to scale AI farther than ever before. Be that through RL, an entirely new architecture, and/or the most intuitive interfaces possible. I aim for the best experiences that not only help get things done faster, but *also* encourage learning along the way. 

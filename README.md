@@ -6,14 +6,14 @@ I’m an 18 y/o developer focused on scaling agent frameworks, improving model b
 
 ## What I’m Building Right Now
 
-- **Athena Heavy Agent**  
-  A long-horizon reasoning system built around recursive sub-agents, tool-calling, code execution, and web search. It’s available as an API, CLI, and web interface.
+- **Agent Chassis**  
+  A light weight base for anyone to quickly make and scale their own agents. 
 
 - **Athena Model Line**  
   A set of compact and mid-sized models (256M → 14B+) such as Athena 0 Pico, Athena 0 Mini, and Athena 1 Recursive. These explore dense reasoning, TRM-style looping, and long-context performance.
 
-- **Agent Base**  
-  A modular FastAPI template for creating agents with MCP support, local tools, and multi-provider model routing. It makes spinning up new agents almost instant.
+- **Training Pipelines, RL Environmnets, and More**  
+  Making environments for training models, exepreimting with looped and recursive pipelines for maximizing small models where we can.
 
 - **Athena Cloud Code**  
   A cloud-based software engineering agent capable of working for extended periods on complex tasks, built off the Base Agent architecture.

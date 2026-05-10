@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">RustChain Twitter banner concept</title>
+  <desc id="desc">Dark RustChain banner with vintage computer motif and the tagline Every CPU Has a Voice.</desc>
+  <rect width="1500" height="500" fill="#0d1321"/>
+  <rect y="340" width="1500" height="160" fill="#111a2e"/>
+  <g opacity="0.24" stroke="#46c2a8" stroke-width="2" fill="none">
+    <path d="M0 120h260l60 70h240l80-90h320l90 120h450"/>
+    <path d="M0 260h180l70-60h300l50 50h250l80-70h570"/>
+    <path d="M0 400h360l80-80h260l70 60h310l70-95h350"/>
+  </g>
+  <g transform="translate(108,96)">
+    <rect x="0" y="0" width="310" height="230" rx="18" fill="#26334f" stroke="#f0b429" stroke-width="8"/>
+    <rect x="30" y="28" width="250" height="135" rx="8" fill="#07101f"/>
+    <text x="155" y="96" text-anchor="middle" font-family="Consolas, monospace" font-size="28" fill="#46c2a8">PowerPC</text>
+    <rect x="75" y="178" width="160" height="22" rx="8" fill="#e8eef8"/>
+    <rect x="112" y="230" width="88" height="42" fill="#26334f"/>
+    <rect x="62" y="268" width="190" height="18" rx="9" fill="#f0b429"/>
+  </g>
+  <g transform="translate(500,110)">
+    <circle cx="140" cy="140" r="112" fill="none" stroke="#f0b429" stroke-width="20"/>
+    <path d="M80 148c-25 0-45-20-45-45s20-45 45-45h60v36H80c-5 0-9 4-9 9s4 9 9 9h60v36H80z" fill="#46c2a8"/>
+    <path d="M140 168h60c5 0 9-4 9-9s-4-9-9-9h-60v-36h60c25 0 45 20 45 45s-20 45-45 45h-60v-36z" fill="#46c2a8"/>
+    <rect x="106" y="112" width="68" height="36" rx="12" fill="#e8eef8"/>
+  </g>
+  <g transform="translate(805,114)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#e8eef8">RustChain</text>
+    <text x="0" y="82" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#f0b429">Every CPU Has a Voice</text>
+    <text x="0" y="145" font-family="Arial, sans-serif" font-size="28" fill="#9fb1d1">Proof-of-Antiquity for real machines, old and new.</text>
+    <text x="0" y="195" font-family="Consolas, monospace" font-size="24" fill="#46c2a8">PowerPC | x86 | ARM | SPARC | RISC-V</text>
+  </g>
+</svg>

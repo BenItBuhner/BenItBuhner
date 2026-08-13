@@ -1,42 +1,46 @@
-# Bennett Buhner: Beneficial AI Engineering
+# Bennett Buhner
 
-I love building with AI, and I especially love to scale **harnesses and evals for agents**. I have made numerous tools and environments before, all with varying use-cases and offerings. From RL environments (for LM certainty) all the way to powerful tools like an open-source Notion/Linear/Calendar alternative with a powerful agent that integrates with it and all your apps, I have significant experience when handling models, refining their harnesses to work as best as possible, and making unique frameworks best optimized for token efficiency, parallelism, and reliability.
+I build **agent harnesses, evals, and inference tools** that stay reliable when the task gets long. Most of my work is about making models usable in real workflows: token-efficient loops, fallbacks that actually fire, MCP/tooling that interoperates, and systems that can run unattended without falling apart.
 
-If you want to see more, you can also go to [my portfolio](https://bennett.techlitnow.com) and check out my various blogs and project highlights.
+More writing and project notes live on [my portfolio](https://bennett.techlitnow.com).
 
-# What I Am Working On
+## What I'm working on
 
-## Noetic: An AI-Powered OSS Alternative to Notion, Linear, Todoist, and More (Next.js, TypeScript)
+### [Cesium](https://github.com/BenItBuhner/Cesium) — Cursor-inspired open-source agent IDE (TypeScript)
 
-This is one of my favorite developments (and is still a WIP), and I use it myself every single day to manage notes, tasks, and my calendar, all with the power of Noetic AI at the forefront. It offers:
+An OSS agent surface inspired by Cursor, with multiple harnesses (native, Cursor, OpenCode, and others) over ACP. Self-host it, keep work running while you're away, and hook it into GitHub and Linear for cloud-agent style loops. This is the project I spend the most time on right now.
 
-- **Open-source code:** It can be ran locally, contributed to by others, and more.
-- **The best unification of tools ever:** Noetic combines every single tracking/saving tool that millions use daily—Notion, Todoist, Linear, Google Calendar, ChatGPT, and more. It takes the place of all of them and then some, perfectly unifying and melding them into one seamless ecosystem.
-- **Powerful AI agency:** The agent harness has been rigorously designed and tested to maximize search coverage, speed, and interoperability between features within Noetic as well as remote tools and MCP servers, together.
-- **And more:** This is super powerful and offers nearly everything else offers, even going as far as including workspaces. You can invite users into your workspace, letting you contribute all simultaneously.
+### [Model Proxy](https://github.com/BenItBuhner/Model-Proxy) — any model, anywhere, with fallbacks (TypeScript, Bun)
 
-## Model Proxy: Enpowering People to Use Any Model Anywhere, Fallbacks Galore (FastAPI, Python)
+I wanted Claude Code (and similar clients) to talk to whatever model I actually use. Model Proxy translates OpenAI and Anthropic APIs, streams cleanly, keeps tool-calling and multimodal payloads intact, and fails over at the API key, provider, and model layers so a single bad upstream does not kill the session.
 
-This is one of my more exciting little endeavors. I always wanted to use Claude Code with any model, and other "proxies" were either crap, or lacked the features I wanted most. This though, offers *everything* I ever could've asked for:
+### [OpenGoal](https://github.com/BenItBuhner/opengoal) — OpenCode fork with goal-mode (TypeScript)
 
-- Both Anthropic and OpenAI Completion formats.
-- API key, provider, and model-level fallbacks, reducing error-rates *drastically*.
-- Proper tool-calling, mutli-media support, and streaming functionality.
+A focused fork of OpenCode that adds Codex-style goal mode and other TUI/runtime improvements. Active work is v2 protocol parity, detached execution, and keeping the fork aligned with upstream.
 
-# Skills & Technologies
+### [Codex Meter](https://github.com/BenItBuhner/Codex-Meter) — Android Codex usage monitor (Java)
 
-- **Languages:** Python, Typescript/JavaScript, Tailwind/CSS
-- **Frameworks:** FastAPI, Django, Next.js, React, Node.js, Bun
-- **Platforms:** Git/GitHub, Docker, Vercel, Railway, Google Cloud
+A native Android client and widget suite for Codex allowance: rolling windows, reset times, credits, and optional notifications. Built because I wanted the usage picture on my phone without opening a browser.
 
-# Strengths
+### Noetic — OSS notes / tasks / calendar workspace (Next.js, TypeScript)
 
-## Backend
-- FastAPI and Next apps
-- API design and interfacing
-- Creating long-running agentic systems
+Still a WIP, and I still use it daily. It is meant to be a local-first, open-source workspace with a first-class agent: notes, tasks, calendar, workspaces, and MCP/remote tools in one place. Public repo is not up yet.
 
-## Agentic Engineering & Environment Design
-- Creating agentic tools and interfaces for both local and production usage
-- Developing, testing, and scaling RL/eval environments for language models
-- Improving agentic flow, struction, and concision throughout long-running and complex tasks
+## Also around
+
+- [MCP-Base](https://github.com/BenItBuhner/MCP-Base) — TypeScript MCP server template with OpenAI and Anthropic-style methods, plus streamable HTTP and local transport.
+- [Insta-AI-Correct](https://github.com/BenItBuhner/Insta-AI-Correct) — AutoHotkey shortcut that Groq-corrects the text you just wrote.
+- [swe-agent-moe](https://github.com/BenItBuhner/swe-agent-moe) — MoE transformer experiments aimed at SWE / agentic tasks.
+
+## Stack
+
+- **Languages:** TypeScript, JavaScript, Python, Java, CSS
+- **Runtime / frameworks:** Bun, Node.js, Next.js, React, FastAPI
+- **Platforms:** GitHub, Docker, Vercel, Railway, Android
+
+## What I am good at
+
+- Long-running agent loops: planning, tool use, recovery, and keeping context from rotting
+- Inference plumbing: API translation, streaming hygiene, fallbacks, and harness integration
+- Eval / RL environments for language models, plus the boring reliability work that makes them useful
+- Shipping both local tools and hosted backends that other agents can actually call
